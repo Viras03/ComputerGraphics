@@ -98,10 +98,10 @@ class graphwindow():
     		if((x,y-1) not in self.dic):
     			l.append((x,y-1))
                 
-    def put_text(self,x,y,msg):
-        t = Text(Point(x,y),msg)
-        t.setSize(8)
-        t.draw(self.win)
+#     def put_text(self,x,y,msg):
+#         t = Text(Point(x,y),msg)
+#         t.setSize(8)
+#         t.draw(self.win)
           
 vx,vy,wx,wy = 400,400,400,400
 port = graphwindow()
